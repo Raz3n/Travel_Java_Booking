@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db11de56-0cb8-4afe-b454-d7d23d73d007" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FlightManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FlightManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FlightManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +45,21 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Travel_Java_App">
+  <component name="RunManager" selected="JUnit.FlightManagerTest.shouldCalculateWeightAllowedPerPassenger">
     <configuration name="All in Travel_Java_App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Travel_Java_App" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlightManagerTest.shouldCalculateWeightAllowedPerPassenger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Travel_Java_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlightManagerTest" />
+      <option name="METHOD_NAME" value="shouldCalculateWeightAllowedPerPassenger" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlightManagerTest.shouldCalculateWeightAllowedPerPassenger" />
         <item itemvalue="JUnit.All in Travel_Java_App" />
         <item itemvalue="JUnit.PlaneTest.canGetPlaneWeight" />
         <item itemvalue="JUnit.PlaneTest.canGetPlaneCapacity" />
@@ -139,22 +148,22 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1578675391121" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578676650545">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578677047632">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1578676650545" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1578676650544">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1578677047632" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1578677047630">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1578676650544" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1578676650543">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1578677047630" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1578677047630">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1578676650543" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1578676650544">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1578677047630" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1578677047631">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1578676650544" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1578677047631" />
     <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1578666797068">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
