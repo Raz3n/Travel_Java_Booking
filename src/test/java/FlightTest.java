@@ -22,6 +22,7 @@ public class FlightTest {
         passenger2 = new Passenger("Tango", 1);
         passenger3 = new Passenger("Martin", 2);
         passenger4 = new Passenger("Joe", 2);
+        passengers = new ArrayList<Passenger>();
         flight = new Flight(plane, passengers, "L33T", "Asgard", "JFK", "08:00");
     }
     @Test
@@ -47,6 +48,12 @@ public class FlightTest {
     @Test
     public void shouldGetDepartureTime() {
         assertEquals("08:00", flight.getFlightDepartureTime());
+    }
+
+    @Test
+    public void shouldReturnNumberOfAvailableSeats() {
+        flight.getPassengers();
+        assertEquals(true, flight.availableSeat());
     }
 
 

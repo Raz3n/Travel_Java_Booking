@@ -41,4 +41,8 @@ public class Flight {
     public String getFlightDepartureTime() {
         return this.departureTime;
     }
+
+    public boolean availableSeat() {
+        return (this.passengers.size() <= this.plane.getCapacity());
+    }
 }
