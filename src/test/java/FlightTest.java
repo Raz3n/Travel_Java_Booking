@@ -29,4 +29,11 @@ public class FlightTest {
         assertEquals(PlaneType.BOEING212, flight.getPlane().getPlaneType());
     }
 
+    @Test
+    public void shouldGetFlightNumber() {
+        assertEquals("L33T", flight.getFlightNumber());
+    }
+
+
+
 }

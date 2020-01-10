@@ -21,4 +21,12 @@ public class Flight {
     public Plane getPlane() {
         return this.plane;
     }
+
+    public ArrayList<Passenger> getPassengers(){
+        return this.passengers;
+    }
+
+    public String getFlightNumber() {
+        return this.flightNumber;
+    }
 }
