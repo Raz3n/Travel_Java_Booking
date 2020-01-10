@@ -23,7 +23,7 @@ public class FlightTest {
         passenger3 = new Passenger("Martin", 2);
         passenger4 = new Passenger("Joe", 2);
         passengers = new ArrayList<Passenger>();
-        flight = new Flight(plane, passengers, "L33T", "Asgard", "JFK", "08:00");
+        flight = new Flight(plane, "L33T", "Asgard", "JFK", "08:00");
     }
     @Test
     public void shouldGetPlane() {
