@@ -34,6 +34,11 @@ public class FlightTest {
         assertEquals("L33T", flight.getFlightNumber());
     }
 
+    @Test
+    public void shouldGetDestination() {
+        assertEquals("Asgard", flight.getFlightDestination());
+    }
+
 
 
 }
