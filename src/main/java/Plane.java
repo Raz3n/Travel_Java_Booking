@@ -6,10 +6,9 @@ public class Plane {
         this.planetype = planetype;
     }
 
-    public PlaneType getPlanetype() {
+    public PlaneType getPlaneType() {
         return this.planetype;
     }
-
 
     public int getCapacity() {
        return this.planetype.getCapacity();

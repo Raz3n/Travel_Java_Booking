@@ -18,4 +18,7 @@ public class Flight {
         this.departureTime = departureTime;
     }
 
+    public Plane getPlane() {
+        return this.plane;
+    }
 }
