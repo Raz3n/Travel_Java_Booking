@@ -6,4 +6,8 @@ public class FlightManager {
         this.flight = flight;
         this.passenger = passenger;
     }
+
+    public int getWeightPerPassenger() {
+        return (flight.getPlane().getWeight() / 2) / flight.getPassengers().size();
+    }
 }
