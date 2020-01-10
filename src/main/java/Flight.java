@@ -42,7 +42,22 @@ public class Flight {
         return this.departureTime;
     }
 
-    public boolean availableSeat() {
-        return (this.passengers.size() <= this.plane.getCapacity());
+    public int planeIsEmpty() {
+        return this.passengers.size();
+    }
+
+    public void addPassenger(Passenger passenger) {
+        if (this.passengers.size() < this.plane.getCapacity()) {
+            this.passengers.add(passenger);
+        }
+    }
+
+    public int getNumberofAvailableSeats() {
+        ArrayList<Passenger> takenSeats = new ArrayList<Passenger>();
+        int freeSeats = this.plane.getCapacity();
+        for (Passenger passenger : this.passengers) {
+            takenSeats.add(passenger);
+        }
+        return freeSeats -= takenSeats.size();
     }
 }

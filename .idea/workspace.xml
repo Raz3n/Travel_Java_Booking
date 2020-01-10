@@ -119,26 +119,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="99" y="123" width="1240" height="593" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578666843016">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="99" y="123" width="1240" height="593" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.793@0.23.1440.793" timestamp="1578666843016" />
     <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1578660523575">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1578660523575" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578665228726">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578668403266">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1578665228726" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1578665228725">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1578668403266" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1578668403265">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1578665228725" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1578665228725">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1578668403265" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1578668403265">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1578665228725" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1578665228726">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1578668403265" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1578668403265">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1578665228726" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1578668403265" />
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1578666797068">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.793@0.23.1440.793" timestamp="1578666797068" />
+    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1578666797067">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.793@0.23.1440.793" timestamp="1578666797067" />
+    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1578666797067">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.793@0.23.1440.793" timestamp="1578666797067" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1578666797067">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.793@0.23.1440.793" timestamp="1578666797067" />
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1578651962783">
       <screen x="0" y="23" width="1440" height="793" />
     </state>

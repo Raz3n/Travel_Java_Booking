@@ -31,6 +31,11 @@ public class FlightTest {
     }
 
     @Test
+    public void planeStartsEmpty(){
+        assertEquals(0, flight.planeIsEmpty());
+    }
+
+    @Test
     public void shouldGetFlightNumber() {
         assertEquals("L33T", flight.getFlightNumber());
     }
@@ -51,11 +56,21 @@ public class FlightTest {
     }
 
     @Test
-    public void shouldReturnNumberOfAvailableSeats() {
-        flight.getPassengers();
-        assertEquals(true, flight.availableSeat());
+    public void shouldAddPassengersToPlaneIfSpace() {
+        flight.addPassenger(passenger1);
+        flight.addPassenger(passenger2);
+        flight.addPassenger(passenger3);
+        flight.addPassenger(passenger4);
+        assertEquals(4, flight.getPassengers().size());
     }
 
-
+    @Test
+    public void shouldGetNumberOfAvailableSeats(){
+        flight.addPassenger(passenger1);
+        flight.addPassenger(passenger2);
+        flight.addPassenger(passenger3);
+        flight.addPassenger(passenger4);
+        assertEquals(1, flight.getNumberofAvailableSeats());
+    }
 
 }
