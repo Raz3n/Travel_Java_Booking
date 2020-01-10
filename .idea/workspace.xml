@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db11de56-0cb8-4afe-b454-d7d23d73d007" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PlaneType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PlaneType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Passenger.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,15 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in Travel_Java_App">
+    <configuration name="All in Travel_Java_App" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Travel_Java_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PassengerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Travel_Java_App" />
       <option name="PACKAGE_NAME" value="" />
@@ -55,8 +66,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlaneTest.canGetPlaneCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Travel_Java_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="METHOD_NAME" value="canGetPlaneCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaneTest.canGetPlaneWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Travel_Java_App" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaneTest" />
+      <option name="METHOD_NAME" value="canGetPlaneWeight" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Travel_Java_App" />
+        <item itemvalue="JUnit.PlaneTest.canGetPlaneWeight" />
+        <item itemvalue="JUnit.PlaneTest.canGetPlaneCapacity" />
         <item itemvalue="JUnit.PassengerTest" />
       </list>
     </recent_temporary>
@@ -87,26 +121,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1578652136338">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1578660523575">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1578652136338" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578658243062">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1578660523575" />
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1578660615004">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1578658243062" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1578658243062">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1578660615004" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1578660615003">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1578658243062" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1578658243061">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1578660615003" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1578660615002">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1578658243061" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1578658243062">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1578660615002" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1578660615003">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1578658243062" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1578660615003" />
     <state x="399" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1578651962783">
       <screen x="0" y="23" width="1440" height="793" />
     </state>

@@ -5,4 +5,17 @@ public class Plane {
     public Plane(PlaneType planetype) {
         this.planetype = planetype;
     }
+
+    public PlaneType getPlanetype() {
+        return this.planetype;
+    }
+
+
+    public int getCapacity() {
+       return this.planetype.getCapacity();
+    }
+
+    public int getWeight() {
+        return this.planetype.getWeight();
+    }
 }
